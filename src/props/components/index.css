@@ -1,0 +1,255 @@
+.header-wrp {
+  /* position: fixed; */
+
+  background-color: white;
+}
+.react-pagination-table__header {
+  color: black;
+}
+.header-img {
+  width: 8em;
+}
+.header-logo-div {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1em;
+}
+.pg-nm-sty {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.pg-nm-sty-ul {
+  background: linear-gradient(324deg, #76cb4d, #2dc76d);
+  padding: 1em;
+  list-style: none;
+  color: white;
+  font-family: montserrat;
+  text-align: left;
+  font-size: 0.85em;
+}
+.side-pl-div {
+  position: fixed;
+  width: 13em;
+  height: 100vh;
+  left: 0;
+}
+.pg-nm-sty-li {
+  padding: 1.8em 0.5em;
+}
+.icon-img {
+  width: 18px;
+  margin-right: 0.5em;
+}
+.body-wrapper {
+  background-color: rgb(246, 248, 248);
+  margin-top: 13.6px;
+}
+.mc-div {
+  width: 16em;
+  height: 8em;
+}
+.card-positioning {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 14em;
+  grid-row-gap: 1.5em;
+  margin-top: 2em;
+}
+
+.ps-h3-div {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 13em;
+}
+.ps-h3 {
+  margin-left: 1em;
+  font-size: 1.5em;
+}
+.card-wrapper {
+  margin-left: 14em;
+  margin-top: 2em;
+  height: 300px;
+}
+.card-wrapper-sub-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.card-chart {
+  border: 1px solid lightcyan;
+  border-radius: 0.5;
+  width: 25em;
+}
+.card-pie {
+  border: 1px solid lightcyan;
+  margin-right: 2em;
+  width: 25em;
+}
+.lg-gy-txt {
+  font-size: 1.2em;
+  color: rgb(165, 165, 165);
+  font-weight: bold;
+  margin: 0 0.5em;
+}
+.lg-gy-txt-end {
+  margin-left: 4em;
+}
+.lg-gy-txt:hover {
+  color: #2dc76d;
+  cursor: pointer;
+  border-bottom: 1px solid #2dc76d;
+}
+.sp-line-div {
+  margin-left: 16em;
+  border-bottom: 1px solid lightgrey;
+}
+.sp-2-line-div {
+  margin-left: 14em;
+  margin-top: 3em;
+  border-bottom: 1px solid lightgrey;
+}
+.thr-fn-bx {
+  margin-left: 19em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3em;
+  padding-right: 10em;
+}
+.fn-bx {
+  background-color: white;
+  width: 18em;
+  height: 8em;
+  border-radius: 0.3em;
+  box-shadow: 3px 3px 5px 6px rgb(236, 234, 234);
+}
+.gr-txt {
+  color: #2dc76d;
+  font-weight: 400;
+  margin-left: 1em;
+}
+.sp-big-txt {
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 1em;
+}
+.table-un {
+  margin-left: 13em;
+  margin-top: 5em;
+}
+.table-header-sty {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  font-size: 0.95em;
+}
+.table-sty {
+  box-shadow: 3px 3px 5px 6px rgb(236, 234, 234);
+  width: 76em;
+  margin-left: 1em;
+  color: grey;
+  font-size: 0.9em;
+}
+.txt-bfr-table {
+  margin-left: 10em;
+  margin-top: 4em;
+}
+.loginBodyWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+.lg-tradr-logo {
+  padding-left: 4em;
+  padding-top: 4em;
+}
+.lg-tradr-img {
+  z-index: 1;
+  width: 15em;
+}
+.left-part {
+  background-image: url(https://image.sciencenordic.com/1440035.jpg?imageId=1440035&width=480&height=274);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+.right-part {
+  padding-left: 4em;
+  padding-top: 4em;
+}
+.tradr-login-form {
+  width: 20em;
+  margin-top: 3em;
+}
+.tradr-input-styling {
+  height: 2em;
+  width: 100%;
+  margin: 1em 0;
+  border: 1px solid #c8c3c3;
+  background-color: white;
+}
+.tradr-green-login-btn {
+  width: 10em;
+  height: 3em;
+  color: white;
+  background-color: #2dc76d;
+  border: none;
+  border-top-right-radius: 0.4em;
+  border-bottom-left-radius: 0.4em;
+  margin-top: 1em;
+  opacity: 0.7;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: montserrat;
+}
+.copyrt-tradr {
+  margin-top: 11em;
+}
+.tradr-gry-label-text {
+  color: #c8c3c3;
+}
+
+@media (max-width: 767px) {
+  .card-positioning {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0.3em;
+    margin-left: 0;
+  }
+  .side-pl-div {
+    display: none;
+  }
+  .card-wrapper-sub-div {
+    grid-template-columns: 1fr;
+  }
+  .card-wrapper {
+    margin-left: 0;
+  }
+  .ps-h3-div {
+    margin-left: 0;
+  }
+  .mc-div {
+    width: 11em;
+  }
+  .txt-bfr-table {
+    margin-left: 0;
+    margin-top: 15em;
+  }
+  .card-chart {
+    width: 20em;
+  }
+  .card-pie {
+    width: 20em;
+  }
+  .sp-line-div {
+    margin-left: 0;
+  }
+  .thr-fn-bx {
+    margin-left: 0;
+    grid-template-columns: 1fr;
+    margin-top: 0;
+    padding: 1em 2em;
+  }
+  .sp-2-line-div {
+    margin-left: 0;
+    padding: 1em;
+  }
+}
